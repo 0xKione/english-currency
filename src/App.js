@@ -1,9 +1,9 @@
 // src/App.js
 
 class App {
-  constructor() {
+  constructor(target) {
     this.coins = [200, 100, 50, 20, 10, 5, 2, 1];
-    this.target = 200;
+    this.target = target || 200;
   }
 
   testCombination(coinsUsed, target) {
