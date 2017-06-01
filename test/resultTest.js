@@ -1,4 +1,4 @@
-// test/combinationTest.js
+// test/resultTest.js
 
 import { expect } from 'chai';
 import App from '../src/App';
